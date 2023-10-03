@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+     justify-content: space-around;
+     display: flex;
+     flex-direction: row;
+     flex-wrap:wrap ;
+     margin: 10px;
+     gap: 20px;
+}
+
+
+.mainimg{
+   width: 300px;
+   height: 300px;
+   border: 2px black solid;
+   display: flex; 
+   margin-left: 10px;
+   padding: 35px;
+   text-align: center;
+   
+}
+
+.main h1{
+   text-align: center;
+   padding: 10px;
+}
+
+.img img{
+     width: 90%;
+     height: 50%;
+     border-radius: 10px;
+     object-fit: cover;
+}
