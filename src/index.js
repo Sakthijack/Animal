@@ -9,7 +9,7 @@ const root=ReactDOM.createRoot(document.getElementById("root"))
 
 root.render(
   <div className='main'>
-    <h1>Love Animal</h1>
+    <h1>Love Animals</h1>
     <div className='head'>
     {details.map(
       function (vilangu){
