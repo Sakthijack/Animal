@@ -24,10 +24,21 @@
    
 }
 
+
+.mainimg:hover{
+    background-color: lightgreen; 
+   transition: 1s; 
+}
+
 .main h1{
    text-align: center;
    padding: 10px;
 }
+
+.main h1:hover{
+   color: blue;
+}
+
 
 .img img{
      width: 90%;
